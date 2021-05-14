@@ -17,17 +17,17 @@ export default function useFormValidation() {
         }
     })
 
-    function validate(formSchema: ObjectSchema<any>, refs: MutableRefObject<HTMLInputElement>[]) {
+    function registry(formSchema: ObjectSchema<any>, refs: MutableRefObject<HTMLInputElement>[]) {
         formSchemaState = formSchema;
 
         refs.map(ref => {
-            ref.current.addEventListener('blur', () => _validateField(ref))
+            ref.current.addEventListener('blur', () => _registryField(ref))
         })
 
         return false;
     }
 
-    function _validateField(ref: MutableRefObject<HTMLInputElement>) {
+    function _registryField(ref: MutableRefObject<HTMLInputElement>) {
         let body = {}
 
         const refName = ref.current.name
@@ -55,5 +55,5 @@ export default function useFormValidation() {
         })
     }
 
-    return { errors, validate };
+    return { errors, registry };
 }
