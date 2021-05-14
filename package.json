@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "Rafael Carvalho <rafaelvfcarvalho@gmail.com>",
   "description": "React hook to form validation",
+  "keywords": ["react", "form", "hooks", "validation"],
   "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
