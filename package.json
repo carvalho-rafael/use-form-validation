@@ -1,9 +1,12 @@
 {
-  "name": "use-form-validation",
+  "name": "@rafaelvvfcarvalho/use-form-validation",
   "version": "1.0.0",
   "author": "Rafael Carvalho <rafaelvfcarvalho@gmail.com>",
   "description": "React hook to form validation",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development"
