@@ -19,7 +19,7 @@ yarn add use-form-validation
 This is an example usin Typescript.   
 
 ```jsx
-import useFormValidation from 'use-form-validation';
+import useFormValidation from '@rafaelvfcarvalho/use-form-validation';
 import { useEffect, useRef } from 'react';
 import * as yup from 'yup';
 
