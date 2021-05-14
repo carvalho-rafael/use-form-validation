@@ -5,18 +5,18 @@
 ## Installing
 
 ```bash
-npm install use-form-validation --save
+npm install @rafaelvfcarvalho/use-form-validation --save
 ```
 
 or
 
 ```bash
-yarn add use-form-validation
+yarn add @rafaelvfcarvalho/use-form-validation
 ```
 
 ## Using
 
-This is an example usin Typescript.   
+This is an example using Typescript.   
 
 ```jsx
 import useFormValidation from '@rafaelvfcarvalho/use-form-validation';
